@@ -1,0 +1,49 @@
+
+.navbar {
+    background-color: rgb(42, 56, 148);
+    border:0px; 
+    margin: 0px;
+    border-radius:0%
+}
+
+.navbar-nav li.active a{
+    background-color: rgb(25, 36, 104);
+    color : #fff;
+}
+
+.navbar-nav>.open>a{
+    background-color: rgb(25, 36, 104);
+    color : #fff;
+}
+.navbar-brand{
+    padding:0px 0px 10px;
+    margin-left:0px;
+}
+
+.row{
+    margin:0px 20px;
+}
+
+img {
+    height:50px;
+    width:70px;
+}
+.jumbotron{
+    background-color: rgb(127, 144, 218);
+    padding: 40px 0px;
+    color: #fff;
+}
+
+.jumbotron p.normal{
+    max-width: 35em;
+    word-break: keep-all;
+    font-size:14px;
+}
+
+.jumbotron h2{
+    margin-bottom: 40px;
+}
+
+a{
+    cursor:pointer;
+}

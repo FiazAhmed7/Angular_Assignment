@@ -1,0 +1,28 @@
+div.row{
+   margin:0px 20px;
+}
+
+div.row .col-md-2{
+	padding: 0px;
+}
+
+div.row .col-md-2 p{
+	margin:0px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+	
+h4, p.list-item-group-title{
+	font-weight:bold;
+}
+
+li.list-group-item{
+	border:none;
+	padding:0px;
+}
+
+li a{
+	cursor: pointer;
+}
