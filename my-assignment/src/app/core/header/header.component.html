@@ -1,0 +1,60 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid" >
+    <div class="row" >
+      <div class="col-md-10 col-md-offset-1">
+          <a routerLink = "/" class="navbar-brand">
+            <img src="assets/images/logo.jpg" class="img-responsive">
+          </a>
+        <ul class="nav navbar-nav">
+          <li routerLinkActive = "active" [routerLinkActiveOptions] = "{exact:true}">
+            <a [routerLink] = "['/']">
+              <i class="fa fa-home"></i>Home
+            </a>
+          </li>
+          <li routerLinkActive = "active">
+            <a [routerLink] = "'/about'">
+              <i class="fa fa-info-circle"></i>About
+            </a>
+          </li>
+          <li class="dropdown" appDropdown>
+            <a  data-toggle="dropdown" class="dropdown-toggle">Menu
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" >
+              <li>
+                <a>Menu 1</a>
+              </li>
+              <li>
+                <a>Menu 2</a>
+              </li>
+              <li>
+                <a>Menu 3</a>
+              </li>
+            </ul>
+          </li>
+
+          <li routerLinkActive = "active">
+            <a routerLink = '/contact'>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron" >
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h2>Ristorante II Fornello</h2>
+        <br>
+        <p class="normal">Simple fresh ingredients, prepared and 
+          cooked with love and passion become truly great dishes, from wood-oven baked
+          Neopolitan style pizzas to pastas, entrees!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+

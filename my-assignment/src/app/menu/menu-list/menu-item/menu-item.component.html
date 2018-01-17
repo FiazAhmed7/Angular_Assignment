@@ -1,0 +1,9 @@
+<a class="list-group-item clearfix">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading"> {{ menu.name }} <span class="badge">{{ menu.rate | currency }}</span></h4>
+    <p class="list-group-item-text">{{ menu.description }}</p>
+  </div>
+  <span class="pull-right">
+    <img [src]="menu.path" alt="image not found" class="img-responsive" >
+  </span> 
+</a>
