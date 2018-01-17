@@ -16,7 +16,4 @@ export class MenuListComponent implements OnInit {
   ngOnInit() {
     this.menu = this.menuService.getMenu();
   }
-
-  
-
 }

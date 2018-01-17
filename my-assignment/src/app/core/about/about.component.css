@@ -4,5 +4,5 @@ h4{
 
 .row{
     margin:0px 20px;
-    height:100%;
+    min-height:150px;
 }

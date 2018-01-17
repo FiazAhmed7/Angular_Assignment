@@ -1,8 +1,9 @@
-h4{
-    font-weight:bold;
-}
 
 .row{
     margin:0px 20px;
-    height:100%;
+    min-height:150px;
+}
+
+h4{
+    font-weight:bold;
 }

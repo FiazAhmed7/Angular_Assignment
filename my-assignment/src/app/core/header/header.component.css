@@ -26,7 +26,9 @@
 
 img {
     height:50px;
-    width:70px;
+    width:50px;
+    margin-left:10px;
+    opacity: 0.7;
 }
 .jumbotron{
     background-color: rgb(127, 144, 218);
